@@ -1,3 +1,7 @@
+/*
+    Pointer und Arrays
+*/
+
 #include <iostream>
 using namespace std;
 
