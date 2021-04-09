@@ -26,6 +26,12 @@ T Berechnen1 (T wert1, B wert2)
 {
     return wert1 * wert2;
 }
+// Falls große Datenströme verwendet werden, werden Referenzen empfohlen
+template <typename T>
+T Berechnen2 (T& wert1, T& wert2)
+{
+    return wert1 * wert2;
+}
 //-----------------------------------------------------------
 int	main(int argc, char **argv)
 {   
@@ -45,7 +51,15 @@ int	main(int argc, char **argv)
 
     // Ausgabe der Ergbenisse
     cout << erg << endl;
-    cout << erg1 << endl;
+    cout << erg1 << endl << endl;
+
+    int a = 1;
+    float b = 2;
+    double c = 3;
+
+
+    cout << Berechnen2(a,a) << endl;
+    cout << Berechnen2(b,b) << endl;
 
     //system("pause");
     return 0;
