@@ -57,6 +57,10 @@ int main () {
       cout << balance[i] << endl;
    }
 
+   // Inhalt des Pointers addieren
+   summe = Addieren(p, 5);
+   cout << "Summe (Inhalt) des Pounters der auf das Array zeigt: " << summe << endl;
+
    cout << endl;
  
    return 0;
