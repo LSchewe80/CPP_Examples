@@ -42,7 +42,6 @@ int	main(int argc, char **argv)
 
     // Ein int und ein float
     cout << Berechnen1(10.5, 10) << endl;
-
     // auto == selbstständige Auswahl
     // <int> == erster Wert ein int
     auto erg = Berechnen1<int>(10,1.5);
@@ -57,9 +56,9 @@ int	main(int argc, char **argv)
     float b = 2;
     double c = 3;
 
-
     cout << Berechnen2(a,a) << endl;
     cout << Berechnen2(b,b) << endl;
+    cout << Berechnen2(c,c) << endl;
 
     //system("pause");
     return 0;
