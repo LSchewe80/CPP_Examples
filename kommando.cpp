@@ -1,3 +1,9 @@
+/*
+	Uebergabe der Werte bei dem Aufruf
+	im Terminal
+
+*/
+
 #include <iostream>
 using namespace std;
 
