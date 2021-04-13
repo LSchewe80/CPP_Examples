@@ -1,5 +1,6 @@
 /*
-    Pointer und Arrays
+   Example
+   Pointer und Arrays
 */
 
 #include <iostream>

@@ -1,3 +1,10 @@
+/*
+	Uebergabe der Werte bei dem Aufruf
+	im Terminal
+	Summe der uebergebenden Zahlen ermitteln
+	Zeichen werden mit 0 bei atof ausgegeben
+*/
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
