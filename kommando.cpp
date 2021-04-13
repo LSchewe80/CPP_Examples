@@ -1,4 +1,6 @@
 /*
+	erstellt: 13/04/2021
+
 	Uebergabe der Werte bei dem Aufruf
 	im Terminal
 
