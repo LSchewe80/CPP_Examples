@@ -16,4 +16,3 @@ int main(int anzahl, char *woerter[])
 	for(int i=0; i<anzahl; i++)
 		cout << i << ": " << woerter[i] << endl;
 }
-
