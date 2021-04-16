@@ -17,8 +17,16 @@ int	main(int argc, char **argv)
     cout << "Geben Sie bitte eine Zeichenkette ein: ";
     cin >> greeting;    // Eingabe
 
-    cout << "Ihre Eingabe lautet:" << greeting << endl;   // Ausgabe
+    cout << "Ihre Eingabe lautet: " << greeting << endl;   // Ausgabe
 
+    double a = 0;
+    double b = 0;
+    cout << "Bitte gib eine Zahl ein: ";
+    cin >> a;
+    cout << "Bitte gib eine weitere Zahl ein: ";
+    cin >> b;
+    cout << "Das Ergebnis der Addition beider Zahlen lautet: " << a + b << endl;
+    
     system("pause");
     return 0;
 }
