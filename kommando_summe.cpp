@@ -16,5 +16,8 @@ int main(int anzahl, char *woerter[])
 	for(int i=1; i<anzahl; i++)
 		summe += atof(woerter[i]);
 	cout << summe << endl;
+
+	//system("pause");
+    return 0;
 }
 

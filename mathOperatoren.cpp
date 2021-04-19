@@ -47,5 +47,6 @@ int	main(int argc, char **argv)
     cout << (1 || 0) << endl;   // true ==  1
     cout << (1 || 1) << endl;   // true ==  1
 
-
+    //system("pause");
+    return 0;
 }
