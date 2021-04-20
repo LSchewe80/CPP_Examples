@@ -4,12 +4,14 @@ Hier sollen für spätere Anwendungen Beispiele bzw. Hilfestellungen aufgezeigt 
 Dabei sollen diverse Beispiele zur Verfügung gestellt werden.
 
 ## Aktuelle Übersicht der C++ - Beispiele
+- Kontrollstrukturen
+- Mathematische Operatoren
+- Datentypen
+- Funktionen
 - Templates
 - Pointer
 - argc, argv -> über die Kommandozeile
 - etc
-
-
 
 
 -----------------------------------------------
