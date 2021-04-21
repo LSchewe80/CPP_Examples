@@ -1,5 +1,10 @@
 #Liste der ignorierten Output-Dateien
 
+funktionen
+galgenmaenchen.cpp
+galgenmaenchen
+strings
+kontrollstrukturen
 mathOperatoren
 datentypen
 cin_cout
@@ -8,3 +13,4 @@ kommando_summe
 pointer
 template_class
 template_func
+.vscode/settings.json
