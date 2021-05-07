@@ -1,5 +1,8 @@
 #Liste der ignorierten Output-Dateien
 
+arrays
+printf
+streams
 funktionen
 galgenmaenchen.cpp
 galgenmaenchen
@@ -17,3 +20,4 @@ template_func
 server
 client
 Socket
+Dateien
