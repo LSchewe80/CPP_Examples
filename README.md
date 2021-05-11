@@ -13,6 +13,7 @@ Dabei sollen diverse Beispiele zur Verfügung gestellt werden.
 - argc, argv -> über die Kommandozeile
 - Socket (Server Client)
 - Streams
+- Arrays
 - etc
 
 
