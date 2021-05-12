@@ -1,5 +1,8 @@
 #Liste der ignorierten Output-Dateien
 
+vectors
+tictactoe.cpp
+tictactoe
 arrays
 printf
 streams
