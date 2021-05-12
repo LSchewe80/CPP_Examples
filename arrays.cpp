@@ -11,6 +11,13 @@
 
 using namespace std;
 
+void doSomething(const array<int, 3> &c) {
+    for (int i = 0; i < c.size(); i++) {
+        cout << " - " << c[i] << endl;
+    }
+}
+
+
 int	main(int argc, char **argv)
 {
     array<int, 4> numbers = {1,3,5,7};
@@ -62,6 +69,10 @@ int	main(int argc, char **argv)
         average = average + names[i];
     }
     cout << "Der Durchschnitt des Inhalts des Arrays: " << average/names.size() << endl;
+
+    // Uebergabe an Funktion
+    array<int, 3> c = {1, 2, 3};
+    doSomething(c);
 
     //system("pause");
     return 0;
