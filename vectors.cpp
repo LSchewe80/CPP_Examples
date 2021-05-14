@@ -78,7 +78,7 @@ int	main(int argc, char **argv)
         cout << element << endl;
     }
 
-    // Letztes Element raus nehmen
+    // entfernt Letztes Element
     data.pop_back();
 
     for(const auto &element : data){
@@ -87,7 +87,7 @@ int	main(int argc, char **argv)
 
     cout << "Erste Element: " << data.front() << endl;
     cout << "Letzte Element: " << data.back() << endl;
-
+    cout << "Letzte Element: " << data[data.size() -1] << endl;
 
     //system("pause");
     return 0;
