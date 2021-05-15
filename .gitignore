@@ -1,5 +1,6 @@
 #Liste der ignorierten Output-Dateien
 
+# Dateien aus CPP_src
 vectors
 tictactoe.cpp
 tictactoe
@@ -7,8 +8,6 @@ arrays
 printf
 streams
 funktionen
-galgenmaenchen.cpp
-galgenmaenchen
 strings
 kontrollstrukturen
 mathOperatoren
@@ -19,8 +18,22 @@ kommando_summe
 pointer
 template_class
 template_func
+
+# aus dem Ordner OOP
+main_oop_1
+
+# Einstellungen VSCode
 .vscode/settings.json
+settings.json
+
+# extra Dateien Socket
 server
 client
+
+# Ordner
 Socket
 Dateien
+Projekte_CPP
+.vscode/settings.json
+.vscode/settings.json
+.vscode/settings.json
