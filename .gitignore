@@ -15,12 +15,19 @@ datentypen
 cin_cout
 kommando
 kommando_summe
-pointer
 template_class
 template_func
 
+# aus dem Ordner Pointer_Array
+Pointer_Array/arrays
+Pointer_Array/pointer
+Pointer_Array/pointer1
+Pointer_Array/stack_heap
+
 # aus dem Ordner OOP
-main_oop_1
+Objektorientierung/OOP_1/main_oop_1
+Objektorientierung/OOP_2_Vererbung/main
+Objektorientierung/OOP_2_Vererbung_protected_private_public/main
 
 # Einstellungen VSCode
 .vscode/settings.json
@@ -34,6 +41,3 @@ client
 Socket
 Dateien
 Projekte_CPP
-.vscode/settings.json
-.vscode/settings.json
-.vscode/settings.json
