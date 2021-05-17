@@ -22,7 +22,7 @@ void etwasMachen2(string word){
     cout << word << endl;
 }
 
-// mit Übergabe- und Rückgabewert
+// ohne Übergabe- und mit Rückgabewert
 double multi(){
     double a = 0.0, b = 0.0;
     cout << "Gebe die erste Zahl zum multiplizieren ein: ";
