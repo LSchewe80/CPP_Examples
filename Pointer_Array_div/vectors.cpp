@@ -29,7 +29,7 @@ int	main(int argc, char **argv)
 
     // Zugriff
     cout << names[1] << endl;
-    cout << names.at(1) << endl;
+    cout << names.at(1) << endl;    // Speziell fuer Vector
 
     // Groesse/Inhalt
     cout << names.size() << endl;
@@ -87,7 +87,37 @@ int	main(int argc, char **argv)
 
     cout << "Erste Element: " << data.front() << endl;
     cout << "Letzte Element: " << data.back() << endl;
-    cout << "Letzte Element: " << data[data.size() -1] << endl;
+    cout << "Letzte Element: " << data[data.size() -1] << endl << endl;
+
+
+
+    // Zwischen einfuegen und/oder enfernen (nicht schnell/ viel performance)
+    // mit Iterator (Vector und Liste)
+    vector<int> vec = {1, 2, 3, 4, 5};
+
+    // Einfuegen
+    vec.insert(vec.begin() + 2 ,123);
+
+    for(int &x : vec){
+        cout << x << endl;
+    }
+    cout << endl;
+
+    // Entfernen
+    vec.erase(vec.begin() + 2);
+
+    for(int &x : vec){
+        cout << x << endl;
+    }
+    cout << endl;
+
+    // Ein Bereich entfernen
+    vec.erase(vec.begin()+1, vec.end()-2);
+    for(int &x : vec){
+        cout << x << endl;
+    }
+    cout << endl;
+
 
     //system("pause");
     return 0;
