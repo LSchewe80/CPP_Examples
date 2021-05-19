@@ -10,11 +10,17 @@ Dabei sollen diverse Beispiele zur Verfügung gestellt werden.
 - Funktionen
 - Templates
 - Pointer
+- Iteratoren
 - argc, argv -> über die Kommandozeile
 - Socket (Server Client)
 - Streams
+- Struct
+- OOP
 - Arrays
 - Vector
+- Liste
+- Set
+- weitere Datenstrukturen
 - etc
 
 
