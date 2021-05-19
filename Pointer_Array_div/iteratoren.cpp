@@ -43,6 +43,7 @@ int	main(int argc, char **argv)
     // Iteratoren vergleichen
     cout << (j < i) << endl << endl;
 
+    // Mit einer for-Schleife über einen vector iterieren
     for(vector<string>::iterator a = names.begin(); a < names.end(); a++){
         cout << *a << endl;
     }
