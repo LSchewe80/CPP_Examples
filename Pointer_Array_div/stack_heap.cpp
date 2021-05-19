@@ -26,7 +26,7 @@ int	main(int argc, char **argv)
     // Array landet auf dem Stack und nach beenden der main/Funktion wird er wieder gelöscht
     int stackArray[5] = {1,2,3,4,5};
 
-    // Pointer, auf Array auf dem Heap (new int[])
+    // Pointer, auf Array auf dem Heap (new int[] == dynamischen Speicher reservieren)
     int *a = new int[10](); // () == mit Nullen befuellt
     cout << a[0] << endl;   // Zugreifen auf Array
     // reservierten Speicher wieder freigeben mit delete[]
