@@ -31,5 +31,15 @@ int main(int argc, const char * argv[]) {
     a.ps = 123;
 
     ausgabe(a);
-    
+
+    // Schreibweise ->ps / .ps
+    //Pointer auf die Klasse
+    Auto *b = &a;
+    // Bei Pointer auf Klasse, Struct etc
+    // -> auf Instanz oder Methode
+    cout << (*b).ps << endl;
+    cout << b->ps << endl;
+
+    ausgabe(*b);
+
 }
