@@ -14,7 +14,7 @@ class Auto {
 public:
     int ps;
     // const --> damit die Funktionausgabe
-    // a.getPs ein const Auto &a haben
+    // a.getPs() ein const Auto &a haben
     // und sie nicht verändert
     int getPs()  const {        
         return this->ps;
@@ -36,7 +36,7 @@ int main(int argc, const char * argv[]) {
     //Pointer auf die Klasse
     Auto *b = &a;
     // Bei Pointer auf Klasse, Struct etc
-    // -> auf Instanz oder Methode
+    // -> auf Instanz oder Methode x-> = (*x).
     cout << (*b).ps << endl;
     cout << b->ps << endl;
 
