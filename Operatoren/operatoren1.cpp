@@ -19,10 +19,10 @@ class Vector
 
     public:
         Vector(double x, double y, double z) : class_x(x), class_y(y), class_z(z) {}
-        
-        ~Vector(){
-            cout << "Destruktur" << endl;
-        }
+
+        // ~Vector(){
+        //     cout << "Destruktur" << endl;
+        // }
 
         Vector operator +(const Vector& vector){
             Vector result(0, 0, 0);
@@ -33,7 +33,7 @@ class Vector
         }
 
         friend ostream& operator <<(ostream& stream, const Vector& vector){
-                stream << "(" << vector.class_x << " , " << vector.class_y << " , " << vector.class_z << ")";
+                stream << "Ausgabe Vector: " << "(" << vector.class_x << " , " << vector.class_y << " , " << vector.class_z << ")";
                 return stream;                        
         }
 };
