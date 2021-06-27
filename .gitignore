@@ -1,7 +1,6 @@
 #Liste der ignorierten Output-Dateien
 
 # Dateien aus CPP_src
-vectors
 tictactoe.cpp
 tictactoe
 arrays
@@ -18,16 +17,50 @@ kommando_summe
 template_class
 template_func
 
-# aus dem Ordner Pointer_Array
-Pointer_Array/arrays
-Pointer_Array/pointer
-Pointer_Array/pointer1
-Pointer_Array/stack_heap
+# aus dem Ordner Pointer_Array_div
+Pointer_Array_div/arrays
+Pointer_Array_div/vectors
+Pointer_Array_div/pointer
+Pointer_Array_div/pointer1
+Pointer_Array_div/stack_heap
+Pointer_Array_div/c_cpp_string
+Pointer_Array_div/pointer_vs_reference
+Pointer_Array_div/structs
+Pointer_Array_div/iteratoren
+Pointer_Array_div/iteratoren_expert
+Pointer_Array_div/iteratoren_vs_pointer
+Pointer_Array_div/liste
+Pointer_Array_div/sets
 
-# aus dem Ordner OOP
+# aus dem Ordner Weitere_Datenstrukturen
+Weitere_Datenstrukturen/enums
+Weitere_Datenstrukturen/pair
+Weitere_Datenstrukturen/map
+Weitere_Datenstrukturen/queue
+
+# aus dem Ordner Objektorientierung
 Objektorientierung/OOP_1/main_oop_1
 Objektorientierung/OOP_2_Vererbung/main
 Objektorientierung/OOP_2_Vererbung_protected_private_public/main
+Objektorientierung/OOP_3_Const_Methode/main
+Objektorientierung/OOP_4_Destruktor/main
+Objektorientierung/OOP_5_virtuelle_Methode/virtuelle_Methode
+Objektorientierung/OOP_6_weitere_Schreibweise/main
+Objektorientierung/OOP_7_Copy_Constructor/main
+
+# aus dem Ordner Operatoren
+Operatoren/operatoren
+Operatoren/operatoren1
+
+# aus dem Ordener Präprozessordirektiven
+Präprozessordirektiven/define
+Präprozessordirektiven/define_1
+
+# aus dem Ordner Exceptions
+Exceptions/exception
+
+# aus dem Ordner Namespaces
+Namespaces/namespaces
 
 # Einstellungen VSCode
 .vscode/settings.json
