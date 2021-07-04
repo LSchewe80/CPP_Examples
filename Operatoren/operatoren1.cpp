@@ -26,17 +26,20 @@ class Vector
 
         Vector operator +(const Vector& vector){
             Vector result(0, 0, 0);
-            result.class_x = this->class_x + vector.class_x;
+            result.class_x = class_x + vector.class_x;
             result.class_y = this->class_y + vector.class_y;
             result.class_z = this->class_z + vector.class_z;
             return result;
         }
 
-        friend ostream& operator <<(ostream& stream, const Vector& vector){
-                stream << "Ausgabe Vector: " << "(" << vector.class_x << " , " << vector.class_y << " , " << vector.class_z << ")";
-                return stream;                        
-        }
+        friend ostream& operator <<(ostream& stream, const Vector& vector);
+
 };
+
+ostream& operator <<(ostream& stream, const Vector& vector){
+        stream << "Ausgabe Vector: " << "(" << vector.class_x << " , " << vector.class_y << " , " << vector.class_z << ")";
+        return stream;                        
+}
 
 
 int	main(int argc, char **argv)
