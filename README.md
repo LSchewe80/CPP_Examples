@@ -21,6 +21,8 @@ Dabei sollen diverse Beispiele zur Verfügung gestellt werden.
 - Liste
 - Set
 - weitere Datenstrukturen
+- Operatoren
+- QT
 - etc
 
 
