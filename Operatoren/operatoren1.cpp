@@ -32,6 +32,7 @@ class Vector
             return result;
         }
 
+        // friend --> da wir auf private Eigenschaften zugreifen
         friend ostream& operator <<(ostream& stream, const Vector& vector);
 
 };
