@@ -1,7 +1,7 @@
 /*
 	erstellt: 25/05/2021
 
-    weitere Art der Konstruktor diekt zu befüllen
+    weitere Art der Konstruktor direkt zu befüllen
 */
 
 #include <iostream>
