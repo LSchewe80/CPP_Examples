@@ -30,6 +30,7 @@ void swap32(uint32_t &byte)
 
 int	main(int argc, char **argv)
 {   
+    // Bit-Funktion
     uint32_t a = 0xAC000201;
     // cout << "DEC vorher: ";
     // cout <<  dec << a << endl;
@@ -43,6 +44,7 @@ int	main(int argc, char **argv)
 
     cout << endl;
 
+    // Swap32
     uint32_t b = 0x11223344;
     cout << "Hex vorher: 0x";
     cout <<  hex  << uppercase << b << endl;
