@@ -31,12 +31,13 @@ void swap32(uint32_t &byte)
 int	main(int argc, char **argv)
 {   
     // Bit-Funktion
-    uint32_t a = 0xAC000201;
+    uint32_t a = 0xA00C0100;
+    swap32(a);
     // cout << "DEC vorher: ";
     // cout <<  dec << a << endl;
     cout << "Hex vorher: 0x";
     cout <<  hex  << uppercase << a << endl;
-    a = ((a & 0x7)>>8 | (a & 0xFF00)<<8);
+    a = ((a & 0x7)<<8) | ((a & 0xFF00)>>8);
     // cout << "DEC nachher: ";
     // cout <<  dec << a << endl;
     cout << "Hex nachher: 0x";

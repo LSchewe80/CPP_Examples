@@ -48,6 +48,18 @@ int	main(int argc, char **argv)
 
     machWas(arr1, 3);   // arr1 == Pointer auf die erste Stelle des Arrays
 
+    cout << endl;
+
+    //Größe Array
+    int arr2 [10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int* ptrArr2 = &arr2[0];
+    
+    size_t n = sizeof(arr2) / sizeof(arr2[0]);
+    size_t n1 = sizeof(*ptrArr2);   // Der Inhalt auf en der Pointer zeigt ist ein Int = 64Bit => 4Byte
+
+    cout << "Größe vom Array: " << n <<  endl;
+    cout << "Größe vom Pointer auf Array: " << n1 << endl;
+
     // system("pause");
    return 0;
 }
