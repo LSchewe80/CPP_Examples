@@ -55,7 +55,7 @@ int	main(int argc, char **argv)
     int* ptrArr2 = &arr2[0];
     
     size_t n = sizeof(arr2) / sizeof(arr2[0]);
-    size_t n1 = sizeof(*ptrArr2);   // Der Inhalt auf en der Pointer zeigt ist ein Int = 64Bit => 4Byte
+    size_t n1 = sizeof(*ptrArr2);   // Der Inhalt auf den der Pointer zeigt ist ein Int = 64Bit => 4Byte
 
     cout << "Größe vom Array: " << n <<  endl;
     cout << "Größe vom Pointer auf Array: " << n1 << endl;

@@ -51,7 +51,16 @@ int	main(int argc, char **argv)
     cout <<  hex  << uppercase << b << endl;
     swap32(b);
     cout << "Hex nacher: 0x";
-    cout <<  hex  << uppercase << b << endl;
+    cout <<  hex  << uppercase << b << endl<< endl;
+
+
+    int x = 255;
+    int y = 0x8F;
+    int z ;
+
+    z = y%x;
+
+    cout << dec << z << endl;
 
 
     // system("pause");
